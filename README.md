@@ -22,6 +22,19 @@ Once the connector is registered as a node named `aci-connector`, you can use `n
  1. A working `az` command-line client - [Install azure cli](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli) 
  2. A Kubernetes cluster with a working `kubectl` - [Set up a Kubernetes cluster on Azure](https://docs.microsoft.com/en-us/azure/container-service/kubernetes/container-service-kubernetes-walkthrough)
 
+## Current Features
+Please refer to the examples directory for the current supported items in the Kubernetes Pod spec. In addition, the following features are currently supported when defined within a Kubernetes Pod spec.
+* Environment Variables
+* Commands
+
+## Limitations
+The following features are not currently supported when defined in the Kubernetes Pod spec.
+* ConfigMaps
+* Secrets
+* ImagePullSecrets
+* ServiceAccounts
+* Volumes
+
 ## Quickstart
 
 1. Edit `examples/aci-connector.yaml` and supply environment variables
