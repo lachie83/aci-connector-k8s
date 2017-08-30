@@ -23,7 +23,7 @@ Once the connector is registered as a node named `aci-connector`, you can use `n
  2. A Kubernetes cluster with a working `kubectl` - [Set up a Kubernetes cluster on Azure](https://docs.microsoft.com/en-us/azure/container-service/kubernetes/container-service-kubernetes-walkthrough)
 
 ## Current Features
-In addition to the examples the following Kubernetes features are currently supported when defined within a Kubernetes Pod manifest. This list is subject to change as we improve the aci-connector.
+In addition to the provided examples directory, the following Kubernetes features are currently supported when defined within a Kubernetes Pod manifest. This list is subject to change as we improve the aci-connector.
 * Environment Variables
 * Commands
 
